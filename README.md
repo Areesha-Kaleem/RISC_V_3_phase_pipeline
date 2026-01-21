@@ -31,36 +31,3 @@ gtkwave processor.vcd
 
 Notes: your environment may use `vsim` with GUI options (e.g. `vsim work.tb_processor`) or other simulators.
 
-## GitHub: quick push commands
-Option A — using GitHub CLI (`gh`):
-```
-git init
-git add .
-git commit -m "Initial commit: 3-phase pipelined RISC-V core"
-gh repo create <OWNER>/<REPO> --public --source=. --remote=origin --push
-```
-
-Option B — manual remote:
-```
-git init
-git add .
-git commit -m "Initial commit: 3-phase pipelined RISC-V core"
-git branch -M main
-git remote add origin https://github.com/<OWNER>/<REPO>.git
-git push -u origin main
-```
-
-Replace `<OWNER>` and `<REPO>` with your GitHub username/org and repository name.
-
-## Recommended .gitignore (suggested)
-```
-/work/
-*.vcd
-vsim.wlf
-transcript
-*.qdb
-*.qpg
-```
-
----
-Created in project root. If you want, I can also add a `.gitignore` file and run the initial `git` commands for you.
