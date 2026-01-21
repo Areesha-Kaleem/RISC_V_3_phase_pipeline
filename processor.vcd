@@ -1,0 +1,28 @@
+$date
+	Wed Jan 21 11:37:15 2026
+$end
+$version
+	QuestaSim Version 2021.1
+$end
+$timescale
+	1ns
+$end
+
+$scope module tb_processor $end
+
+$scope module proc_inst $end
+
+$scope module imem_inst $end
+$upscope $end
+
+$scope module rfile_inst $end
+$upscope $end
+
+$scope module alu_inst $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+$end
